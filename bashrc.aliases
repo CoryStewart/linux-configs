@@ -1,0 +1,12 @@
+#echo "Executing: .aliases.bash"
+
+alias g='gvim'
+alias gnotes='gvim ~/notes/notes.txt'
+alias ls='command ls -CF --color'
+alias ll='command ls -Fltr --color'
+alias la='command ls -aF --color'
+alias du='du -h --max-depth=1'
+
+lg() {
+    ls -Fltr --color | grep "$@"
+}

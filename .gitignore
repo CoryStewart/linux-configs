@@ -1,0 +1,8 @@
+# Swap files
+[._]*.swp
+[._]*.swo
+
+tags
+*.pyc
+
+*.bak
